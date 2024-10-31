@@ -1,0 +1,34 @@
+We request a bonus for three main additions this time:
+1. Logger:
+We added a robust logging mechanism to the project, which allows us to capture detailed runtime information for debugging and analysis. The following are the logged details:
+- "Distance From Docking -> " logged as information on every iteration.
+- "Need Charging, Decided To Go Back To The Docking." logged as information when the robot is low on battery and needs charging.
+- "Charging..." logged as information while charging the robot.
+- "Moving Towards The Docking." logged as information the moments we are on the way to the docking.
+- "Looking For Dirt." logged as information while looking for dirt.
+- "Finished And Going Back To Docking." logged as information when cleaning is finished(all reachable dirt was cleaned) and the robot decided to return to docking.
+- "On My Way To Clean." logged as information when on the way to clean the dirt.
+- "Simulation started" logged as information at the beginning of the simulation.
+- "Battery State: " logged as information on every iteration, showing us the battery state.
+- "Current Position: " logged as information on every iteration, to show the current position of the robot.
+- "Overall Steps: " logged as information on every iteration, to show the overall steps.
+- "House State:" logged as information on every iteration, in every iteration to keep track of the house.
+- "House Cleaned." logged as information when the house is fully cleaned.
+- "Vacuum Dead." logged as a warning when the vacuum battery is 0 and it's dead.
+- "Reached Maximum Number of Steps." logged as a warning when we reach the maximum number of steps.
+- "Simulation Finished." logged as information when the simulation is finished.
+
+2. Visualization Upgrades:
+We have upgraded the visual simulation to include the following:
+- Displaying the current battery level and steps count at the top corners of the screen.
+- Adding progress bars to visually represent the battery level and steps progress.
+- The battery level is represented by a green bar that decreases when moving and increases when charging.
+- The steps progress bar indicates the proportion of steps taken relative to the maximum steps allowed, with a gradient color change.
+- The overall simulation includes the previous features such as walls, dirt levels, and docking station representation(We reminded of them in the bonus.pdf).
+
+3.HLD pdf file:
+Which Includes:
+- UML Class diagram
+- UML Sequence diagram 
+
+Note: A bonus.pdf will describe the whole bonus additions in detail for clarity in case this text file is not sufficient(includes the previous bonus).

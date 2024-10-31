@@ -1,0 +1,9 @@
+House C
+MaxSteps = 100
+MaxBattery=50
+Rows = 4
+Cols =10
+WWWWwwWWWW
+WWD532W3W3
+986214201W
+WWWwwwwWWW

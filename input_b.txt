@@ -1,0 +1,8 @@
+House B
+MaxSteps = 200
+MaxBattery=30
+Rows = 3
+Cols =5
+5W2W3
+4WD32
+694W8

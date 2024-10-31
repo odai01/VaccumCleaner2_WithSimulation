@@ -1,0 +1,7 @@
+House A
+MaxSteps = 200
+MaxBattery=30
+Rows = 3
+Cols =6
+25134D
+481W69
